@@ -1,4 +1,4 @@
-name: Timer
+name: Test
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   watch:
-    type: started
+    types: started
 
 jobs:
   build:
