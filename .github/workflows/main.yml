@@ -11,7 +11,6 @@ on:
 job:
   build:
     runs_on: ubuntu-latest
-  step:
-    run: |
-      echo hello
-    
+    step:
+      run: |
+        echo hello
