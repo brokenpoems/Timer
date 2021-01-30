@@ -1,4 +1,4 @@
-name:Timer
+name: Timer
 
 on:
   push:
@@ -8,9 +8,10 @@ on:
   watch:
     type: started
 
-job:
+jobs:
   build:
-    runs_on: ubuntu-latest
-    step:
-      run: |
-        echo hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: |
+          echo hello world!
